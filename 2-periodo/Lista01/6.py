@@ -3,7 +3,7 @@ Faça um programa que pergunte em que turno você estuda. Peça para digitar M-m
 Imprima a mensagem "Bom dia!", "Boa tarde!" ou "Boa noite!" ou "Valor inválido!", conforme o caso.
 '''
 
-turno = input("Informe o horário que você estuda: ").lower()
+turno = input("Informe o horário que você estuda: \nM - Matutino\nV - Vespertino\nN - Noturno\n\n").lower()
 
 match turno:
     case 'm':
