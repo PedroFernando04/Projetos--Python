@@ -1,9 +1,10 @@
 #Faça um programa que leia três números e mostre o maior deles
 
-auxiliar = 0
+numero = float(input(f"Informe o 1° número: "))
+auxiliar = numero
 
-for i in range(1,4):
-    numero = float(input(f"Informe o {i}° número: "))
+for i in range(0,2):
+    numero = float(input(f"Informe o {i + 2}° número: "))
     if numero >= auxiliar:
         auxiliar = numero
 print(auxiliar)
