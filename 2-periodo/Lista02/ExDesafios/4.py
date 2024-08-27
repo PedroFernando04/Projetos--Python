@@ -29,12 +29,13 @@ dado_requisito = [[nome, "o nome deve ter mais que 3 caracteres", len(nome) > 3]
 
 def valido(dado):
     print(f"{dado} (Válido!)")
-def invalido(requisito):
-    print(f"\nInválido!\n{requisito}")
+def invalido(dado, requisito):
+    print(f"\n{dado} - Inválido!\n{requisito}")
+
 
 for i in range(0, 5):
     if dado_requisito[i][2]:
         valido(dado_requisito[i][0]) 
     else:
-        invalido(dado_requisito[i][1])
+        invalido(dado_requisito[i][0], dado_requisito[i][1])
 print("\n")
