@@ -11,6 +11,6 @@ for i in range(1, numero + 1):
         contador += 1
     if contador > 2:
         print("Não é primo!")
-        break
+        exit()
 if contador <= 2:
     print("É primo!")
