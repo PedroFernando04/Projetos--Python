@@ -1,6 +1,6 @@
-from Usuarios import def_controlador_usuario
+from Usuarios import controlador_usuario
 
 login = input("Informe o login: ")
 senha = input("Informa a senha: ")
 
-def_controlador_usuario.controlador_usuario(login, senha)
+controlador_usuario.autenticar(login, senha)
