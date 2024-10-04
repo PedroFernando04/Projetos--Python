@@ -174,12 +174,12 @@ def quantidade_de_palavras(frase):
 
 #Q11
 
-#from Q9_soma_da_lista import soma_lista, criar_lista
+from FUNCTIONS import pf
 
 def media_lista():
-    
-    lista = criar_lista()
-    soma = soma_lista(lista)
+
+    lista = pf.criar_lista()
+    soma = pf.soma_lista(lista)
     media = soma / len(lista)
 
     return media
