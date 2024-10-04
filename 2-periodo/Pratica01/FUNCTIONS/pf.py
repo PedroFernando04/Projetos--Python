@@ -208,3 +208,12 @@ def celsius_fahrenheit(temperatura_atual):
     return temperatura_final, tipo_temperatura_inicial, tipo_temperatura_final
 
 #Q13
+
+def validar_email(email):
+    if '@' in email:
+        print("\nE-mail válido!\n")
+        return True
+    else:
+        print("\nFormato inválido!")
+        email = input("\nInforme o seu e-mail: ")
+        validar_email(email)
