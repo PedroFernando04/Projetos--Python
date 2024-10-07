@@ -210,7 +210,7 @@ def celsius_fahrenheit(temperatura_atual):
 #Q13
 
 def validar_email(email):
-    if '@' in email:
+    if '@' and '.com' in email:
         print("\nE-mail válido!\n")
         return True
     else:
